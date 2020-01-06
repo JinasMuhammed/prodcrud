@@ -11,7 +11,7 @@ let Product = new Schema(
     title: { type: String },
     image: { type: String },
     price: { type: Number },
-    category: { type: String },
+    gst: { type: Number },
     description: { type: String }
   },
   {
