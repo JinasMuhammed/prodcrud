@@ -33,7 +33,7 @@ proRoute.route('/update/:id').post(function(req, res) {
       data.title = req.body.title;
       data.image = req.body.image;
       data.price = req.body.price;
-      data.ctegory = req.body.category;
+      data.gst = req.body.gst;
       data.description = req.body.description;
 
       data
